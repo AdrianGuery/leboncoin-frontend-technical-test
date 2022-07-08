@@ -1,0 +1,16 @@
+.conversationInList{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 16px;
+  gap: 16px;
+}
+
+.date{
+  margin-left: auto;
+  color: var(--main-color);
+}
+
+.separator{
+  width: 100%;
+}
