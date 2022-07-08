@@ -1,0 +1,35 @@
+.root{
+  display: flex;
+  flex-direction: column;
+  max-width: 80vw;
+  margin-bottom: 32px;
+  width: fit-content;
+}
+
+@media (min-width: 600px) {
+  .main {
+    max-width: 60vw;
+  }
+}
+
+.content{
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  margin-block: 4px;
+}
+
+.contentSender{
+  background-color: var(--main-color);
+  color: white;
+}
+
+.contentRecipient{
+  background-color: white;
+  color: var(--gray-color);
+}
+
+.date{
+  margin-block: 4px;
+  color: var(--gray-color);
+}

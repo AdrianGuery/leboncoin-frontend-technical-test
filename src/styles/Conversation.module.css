@@ -1,0 +1,64 @@
+.conversationPage{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: white;
+  border-bottom: 1px solid #eaeaea;
+}
+@media (min-width: 600px) {
+  .header {
+    height: 100px;
+  }
+}
+
+.messages {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 1;
+  flex-grow: 1;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: -32px;
+}
+
+.message{
+  width: 100%;
+}
+
+.noResults{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.error{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: red;
+}
+
+.input{
+  border-top: 1px solid #eaeaea;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 100vw;
+  z-index: 10;
+}
